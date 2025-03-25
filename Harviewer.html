@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" type="module"></script>
+    </head>
+    <body>
+        <h1>Har File Viewer</h1>
+        <div>
+            <label for="harInput">Choose .har file to upload</label>
+            <input type="file" id="harInput" accept=".har" />
+        </div>
+        <div>
+            <h2>Har Data</h2>
+            <div>
+                <h3>Har Network Table</h3>
+                <table id="har-data-table">
+                    <tc>
+                        <th>Request URL</th>
+                    </tc>
+                    <tc>
+                        <th>Response Type</th>
+                    </tc>
+                    <tc>
+                        <th>Response Preview</th>
+                    </tc>
+                    <tc>
+                        <th>Headers</th>
+                    </tc>
+                </table>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
+
